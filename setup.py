@@ -234,7 +234,7 @@ def main():
         ],
         ext_modules=extensions,
         install_requires=['backports.shutil_get_terminal_size',
-                          'numpy', 'scipy'],
+                          'numpy', 'scipy', 'astropy', 'matplotlib'],
         scripts=['bdsf/pybdsf', 'bdsf/pybdsm'],
         zip_safe=False,
         cmdclass={
