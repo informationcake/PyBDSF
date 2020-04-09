@@ -233,7 +233,7 @@ def main():
             'Topic :: Scientific/Engineering :: Astronomy'
         ],
         ext_modules=extensions,
-        install_requires=['backports.shutil_get_terminal_size',
+        install_requires=['backports.shutil_get_terminal_size', 'ipython',
                           'numpy', 'scipy', 'astropy', 'matplotlib'],
         scripts=['bdsf/pybdsf', 'bdsf/pybdsm'],
         zip_safe=False,

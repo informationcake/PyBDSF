@@ -11,7 +11,7 @@ matrix:
 before_install:
   - sudo apt-get -qq update
   - sudo apt-get install -y libboost-python-dev gfortran
-  - pip install setuptools numpy scipy astropy matplotlib
+  - pip install setuptools numpy scipy astropy matplotlib ipython
 
 install: "python setup.py install"
 
